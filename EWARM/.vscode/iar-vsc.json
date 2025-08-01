@@ -1,0 +1,18 @@
+{
+  "workspace": {
+    "path": "${workspaceFolder}\\Project.eww"
+  },
+  "workspaces": {
+    "${workspaceFolder}\\Project.eww": {
+      "configs": {
+        "${workspaceFolder}\\HAL-TEST-BOARD-LED-FEATHERWING.ewp": "HAL-TEST-BOARD-LED-FEATHERWING"
+      },
+      "selected": {
+        "path": "${workspaceFolder}\\HAL-TEST-BOARD-LED-FEATHERWING.ewp"
+      }
+    }
+  },
+  "workbench": {
+    "path": "C:\\IAR-Installer\\IAR9.60.3"
+  }
+}

@@ -1,0 +1,15 @@
+C:\IAR-Installer\IAR9.60.3\arm\bin\armPROC.dll
+
+ C:\IAR-Installer\IAR9.60.3\arm\bin\armSTLINK.dll
+
+ "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Exe\HAL-TEST-BOARD-LED-FEATHERWING.out"
+
+ --plugin=C:\IAR-Installer\IAR9.60.3\arm\bin\armLibSupportUniversal.dll
+
+ --device_macro=C:\IAR-Installer\IAR9.60.3\arm/config/debugger/ST/STM32L4xx.dmac
+
+ --flash_loader=C:\IAR-Installer\IAR9.60.3\arm/config/flashloader/ST/FlashSTM32L43xxC.board
+
+ 
+
+

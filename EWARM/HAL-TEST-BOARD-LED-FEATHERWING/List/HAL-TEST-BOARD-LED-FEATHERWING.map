@@ -1,0 +1,512 @@
+###############################################################################
+#
+# IAR ELF Linker V9.60.3.422/W64 for ARM                  01/Aug/2025  11:00:38
+# Copyright 2007-2024 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Exe\HAL-TEST-BOARD-LED-FEATHERWING.out
+#    Map file     =
+#        C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\List\HAL-TEST-BOARD-LED-FEATHERWING.map
+#    Command line =
+#        -f "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Exe\HAL-TEST-BOARD-LED-FEATHERWING.out.rsp"
+#        ("C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\Src_8336665556917705180.dir\gpio.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\Src_8336665556917705180.dir\icled.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\Src_8336665556917705180.dir\icled_extra.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\Src_8336665556917705180.dir\main.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\EWARM_18443280873093131863.dir\startup_stm32l433xx.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_cortex.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_dma.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_dma_ex.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_exti.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_flash.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_flash_ex.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_flash_ramfunc.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_gpio.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_i2c.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_i2c_ex.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\Src_8336665556917705180.dir\stm32l4xx_hal_msp.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_pwr.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_pwr_ex.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_rcc.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_rcc_ex.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_tim.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_tim_ex.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_uart.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir\stm32l4xx_hal_uart_ex.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\Src_8336665556917705180.dir\stm32l4xx_it.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\CMSIS_6603591812247902717.dir\system_stm32l4xx.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\Src_8336665556917705180.dir\tim.o"
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\Src_8336665556917705180.dir\usart.o"
+#        --no_out_extension -o
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Exe\HAL-TEST-BOARD-LED-FEATHERWING.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\List\HAL-TEST-BOARD-LED-FEATHERWING.map"
+#        --config
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM/stm32l433xx_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale
+#        --cpu=Cortex-M4 --fpu=VFPv4_sp) --dependencies=n
+#        "C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit
+#        HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Exe\HAL-TEST-BOARD-LED-FEATHERWING.out.iar_deps"
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x803'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address  Alignment    Size  Object
+  -------            ----         -------  ---------    ----  ------
+"A0":                                                  0x18c
+  .intvec            ro code   0x800'0000          4   0x18c  startup_stm32l433xx.o [2]
+                             - 0x800'018c              0x18c
+
+"P1":                                                 0x1014
+  .text              ro code   0x800'018c          4   0x730  stm32l4xx_hal_rcc.o [3]
+  .text              ro code   0x800'08bc          4    0x44  stm32l4xx_hal.o [3]
+  .text              ro code   0x800'0900          4     0xc  stm32l4xx_hal.o [3]
+  .text              ro code   0x800'090c          4    0x10  stm32l4xx_hal_pwr_ex.o [3]
+  .text              ro code   0x800'091c          4    0xa0  stm32l4xx_hal_cortex.o [3]
+  .text              ro code   0x800'09bc          4   0x1f0  main.o [4]
+  .text              ro code   0x800'0bac          4    0x2c  stm32l4xx_hal.o [3]
+  .text              ro code   0x800'0bd8          4    0x12  ABImemset_small.o [7]
+  .text              ro code   0x800'0bea          2    0x2a  copy_init3.o [7]
+  .text              ro code   0x800'0c14          4   0x1c0  stm32l4xx_hal_gpio.o [3]
+  .text              ro code   0x800'0dd4          4    0x28  stm32l4xx_hal.o [3]
+  .text              ro code   0x800'0dfc          4    0x30  stm32l4xx_hal_msp.o [4]
+  .text              ro code   0x800'0e2c          4    0xc4  stm32l4xx_hal_dma.o [3]
+  .text              ro code   0x800'0ef0          2    0x38  zero_init3.o [7]
+  .rodata            const     0x800'0f28          4    0x30  system_stm32l4xx.o [1]
+  .text              ro code   0x800'0f58          4    0x28  data_init.o [7]
+  .text              ro code   0x800'0f80          4    0x22  fpinit_M.o [6]
+  .iar.init_table    const     0x800'0fa4          4    0x24  - Linker created -
+  .text              ro code   0x800'0fc8          4    0x20  stm32l4xx_it.o [4]
+  .text              ro code   0x800'0fe8          4    0x10  stm32l4xx_hal.o [3]
+  .text              ro code   0x800'0ff8          4    0x20  system_stm32l4xx.o [1]
+  .text              ro code   0x800'1018          4    0x1e  cmain.o [7]
+  .text              ro code   0x800'1036          2     0x4  low_level_init.o [5]
+  .text              ro code   0x800'103a          2     0x4  exit.o [5]
+  .text              ro code   0x800'1040          4     0xa  cexit.o [7]
+  .text              ro code   0x800'104c          4    0x14  exit.o [8]
+  .text              ro code   0x800'1060          4    0x1c  cstartup_M.o [7]
+  .text              ro code   0x800'107c          4    0x10  startup_stm32l433xx.o [2]
+  Initializer bytes  const     0x800'108c          4    0x10  <for P2-1>
+  .text              ro code   0x800'109c          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10a0          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10a4          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10a8          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10ac          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10b0          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10b4          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10b8          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10bc          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10c0          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10c4          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10c8          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10cc          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10d0          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10d4          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10d8          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10dc          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10e0          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10e4          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10e8          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10ec          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10f0          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10f4          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10f8          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'10fc          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1100          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1104          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1108          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'110c          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1110          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1114          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1118          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'111c          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1120          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1124          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1128          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'112c          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1130          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1134          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1138          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'113c          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1140          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1144          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1148          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'114c          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1150          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1154          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1158          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'115c          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1160          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1164          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1168          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'116c          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1170          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1174          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1178          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'117c          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1180          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1184          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1188          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'118c          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1190          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1194          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'1198          2     0x4  startup_stm32l433xx.o [2]
+  .text              ro code   0x800'119c          2     0x4  startup_stm32l433xx.o [2]
+  .rodata            const     0x800'11a0                0x0  zero_init3.o [7]
+  .rodata            const     0x800'11a0                0x0  copy_init3.o [7]
+                             - 0x800'11a0             0x1014
+
+"P2", part 1 of 3:                                      0x10
+  P2-1                        0x2000'0000          4    0x10  <Init block>
+    .data            inited   0x2000'0000          4     0xc  stm32l4xx_hal.o [3]
+    .data            inited   0x2000'000c          4     0x4  system_stm32l4xx.o [1]
+                            - 0x2000'0010               0x10
+
+"P2", part 2 of 3:                                     0x184
+  .bss               zero     0x2000'0010          4   0x13c  main.o [4]
+  .bss               zero     0x2000'014c          4    0x48  tim.o [4]
+                            - 0x2000'0194              0x184
+
+"P2", part 3 of 3:                                     0x400
+  CSTACK                      0x2000'0198          8   0x400  <Block>
+    CSTACK           uninit   0x2000'0198              0x400  <Block tail>
+                            - 0x2000'0598              0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'11a0   0x803'ffff  0x3'ee60
+  0x2000'0194  0x2000'0197       0x4
+  0x2000'0598  0x2000'ffff    0xfa68
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x184:
+          0x2000'0010  0x184
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10:
+           0x800'108c   0x10
+    1 destination range, total size 0x10:
+          0x2000'0000   0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\CMSIS_6603591812247902717.dir: [1]
+    system_stm32l4xx.o           32       52        4
+    -------------------------------------------------
+    Total:                       32       52        4
+
+C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\EWARM_18443280873093131863.dir: [2]
+    startup_stm32l433xx.o       672
+    -------------------------------------------------
+    Total:                      672
+
+C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir: [3]
+    stm32l4xx_hal.o             180       12       12
+    stm32l4xx_hal_cortex.o      160
+    stm32l4xx_hal_dma.o         196
+    stm32l4xx_hal_gpio.o        448
+    stm32l4xx_hal_pwr_ex.o       16
+    stm32l4xx_hal_rcc.o       1'840
+    -------------------------------------------------
+    Total:                    2'840       12       12
+
+C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\Src_8336665556917705180.dir: [4]
+    main.o                      496               316
+    stm32l4xx_hal_msp.o          48
+    stm32l4xx_it.o               32
+    tim.o                                          72
+    -------------------------------------------------
+    Total:                      576               388
+
+dl7M_tln.a: [5]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tls.a: [6]
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                       34
+
+rt7M_tl.a: [7]
+    ABImemset_small.o            18
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 42
+    cstartup_M.o                 28
+    data_init.o                  40
+    zero_init3.o                 56
+    -------------------------------------------------
+    Total:                      224
+
+shb_l.a: [8]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                          4        2
+    Linker created                        36    1'024
+-----------------------------------------------------
+    Grand Total:              4'410      102    1'428
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'0fa4          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'0fc8          --   Gb  - Linker created -
+?main                    0x800'1019         Code  Gb  cmain.o [7]
+ADC1_IRQHandler          0x800'10e1         Code  Wk  startup_stm32l433xx.o [2]
+AHBPrescTable            0x800'1008   0x10  Data  Gb  system_stm32l4xx.o [1]
+BusFault_Handler         0x800'0fcf    0x2  Code  Gb  stm32l4xx_it.o [4]
+CAN1_RX0_IRQHandler      0x800'10e9         Code  Wk  startup_stm32l433xx.o [2]
+CAN1_RX1_IRQHandler      0x800'10ed         Code  Wk  startup_stm32l433xx.o [2]
+CAN1_SCE_IRQHandler      0x800'10f1         Code  Wk  startup_stm32l433xx.o [2]
+CAN1_TX_IRQHandler       0x800'10e5         Code  Wk  startup_stm32l433xx.o [2]
+COMP_IRQHandler          0x800'115d         Code  Wk  startup_stm32l433xx.o [2]
+CRS_IRQHandler           0x800'119d         Code  Wk  startup_stm32l433xx.o [2]
+CSTACK$$Base            0x2000'0198          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0598          --   Gb  - Linker created -
+DMA1_Channel1_IRQHandler
+                         0x800'10c9         Code  Wk  startup_stm32l433xx.o [2]
+DMA1_Channel2_IRQHandler
+                         0x800'10cd         Code  Wk  startup_stm32l433xx.o [2]
+DMA1_Channel3_IRQHandler
+                         0x800'10d1         Code  Wk  startup_stm32l433xx.o [2]
+DMA1_Channel4_IRQHandler
+                         0x800'10d5         Code  Wk  startup_stm32l433xx.o [2]
+DMA1_Channel5_IRQHandler
+                         0x800'10d9         Code  Wk  startup_stm32l433xx.o [2]
+DMA1_Channel6_IRQHandler
+                         0x800'10dd         Code  Wk  startup_stm32l433xx.o [2]
+DMA1_Channel7_IRQHandler
+                         0x800'0fdd    0x6  Code  Gb  stm32l4xx_it.o [4]
+DMA2_Channel1_IRQHandler
+                         0x800'1149         Code  Wk  startup_stm32l433xx.o [2]
+DMA2_Channel2_IRQHandler
+                         0x800'114d         Code  Wk  startup_stm32l433xx.o [2]
+DMA2_Channel3_IRQHandler
+                         0x800'1151         Code  Wk  startup_stm32l433xx.o [2]
+DMA2_Channel4_IRQHandler
+                         0x800'1155         Code  Wk  startup_stm32l433xx.o [2]
+DMA2_Channel5_IRQHandler
+                         0x800'1159         Code  Wk  startup_stm32l433xx.o [2]
+DMA2_Channel6_IRQHandler
+                         0x800'116d         Code  Wk  startup_stm32l433xx.o [2]
+DMA2_Channel7_IRQHandler
+                         0x800'1171         Code  Wk  startup_stm32l433xx.o [2]
+DebugMon_Handler         0x800'0fd5    0x2  Code  Gb  stm32l4xx_it.o [4]
+EXTI0_IRQHandler         0x800'10b5         Code  Wk  startup_stm32l433xx.o [2]
+EXTI15_10_IRQHandler     0x800'1131         Code  Wk  startup_stm32l433xx.o [2]
+EXTI1_IRQHandler         0x800'10b9         Code  Wk  startup_stm32l433xx.o [2]
+EXTI2_IRQHandler         0x800'10bd         Code  Wk  startup_stm32l433xx.o [2]
+EXTI3_IRQHandler         0x800'10c1         Code  Wk  startup_stm32l433xx.o [2]
+EXTI4_IRQHandler         0x800'10c5         Code  Wk  startup_stm32l433xx.o [2]
+EXTI9_5_IRQHandler       0x800'10f5         Code  Wk  startup_stm32l433xx.o [2]
+FLASH_IRQHandler         0x800'10ad         Code  Wk  startup_stm32l433xx.o [2]
+FPU_IRQHandler           0x800'1199         Code  Wk  startup_stm32l433xx.o [2]
+HAL_DMA_IRQHandler       0x800'0e2d   0xb2  Code  Gb  stm32l4xx_hal_dma.o [3]
+HAL_Delay                0x800'0dd5   0x28  Code  Wk  stm32l4xx_hal.o [3]
+HAL_GPIO_Init            0x800'0c15  0x198  Code  Gb  stm32l4xx_hal_gpio.o [3]
+HAL_GPIO_WritePin        0x800'0dad    0xa  Code  Gb  stm32l4xx_hal_gpio.o [3]
+HAL_GetTick              0x800'0901    0xc  Code  Wk  stm32l4xx_hal.o [3]
+HAL_IncTick              0x800'0fe9   0x10  Code  Wk  stm32l4xx_hal.o [3]
+HAL_Init                 0x800'0bad   0x28  Code  Gb  stm32l4xx_hal.o [3]
+HAL_InitTick             0x800'08bd   0x44  Code  Wk  stm32l4xx_hal.o [3]
+HAL_MspInit              0x800'0dfd   0x30  Code  Gb  stm32l4xx_hal_msp.o [4]
+HAL_NVIC_SetPriority     0x800'094b   0x3a  Code  Gb  stm32l4xx_hal_cortex.o [3]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'0937   0x14  Code  Gb  stm32l4xx_hal_cortex.o [3]
+HAL_PWREx_GetVoltageRange
+                         0x800'090d    0xc  Code  Gb  stm32l4xx_hal_pwr_ex.o [3]
+HAL_RCC_ClockConfig      0x800'064f   0xfa  Code  Gb  stm32l4xx_hal_rcc.o [3]
+HAL_RCC_GetSysClockFreq
+                         0x800'077f   0x92  Code  Gb  stm32l4xx_hal_rcc.o [3]
+HAL_RCC_OscConfig        0x800'018d  0x48a  Code  Gb  stm32l4xx_hal_rcc.o [3]
+HAL_SYSTICK_Config       0x800'0985   0x22  Code  Gb  stm32l4xx_hal_cortex.o [3]
+HardFault_Handler        0x800'0fcb    0x2  Code  Gb  stm32l4xx_it.o [4]
+I2C1_ER_IRQHandler       0x800'1111         Code  Wk  startup_stm32l433xx.o [2]
+I2C1_EV_IRQHandler       0x800'110d         Code  Wk  startup_stm32l433xx.o [2]
+I2C2_ER_IRQHandler       0x800'1119         Code  Wk  startup_stm32l433xx.o [2]
+I2C2_EV_IRQHandler       0x800'1115         Code  Wk  startup_stm32l433xx.o [2]
+I2C3_ER_IRQHandler       0x800'1181         Code  Wk  startup_stm32l433xx.o [2]
+I2C3_EV_IRQHandler       0x800'117d         Code  Wk  startup_stm32l433xx.o [2]
+LCD_IRQHandler           0x800'1191         Code  Wk  startup_stm32l433xx.o [2]
+LPTIM1_IRQHandler        0x800'1161         Code  Wk  startup_stm32l433xx.o [2]
+LPTIM2_IRQHandler        0x800'1165         Code  Wk  startup_stm32l433xx.o [2]
+LPUART1_IRQHandler       0x800'1175         Code  Wk  startup_stm32l433xx.o [2]
+MSIRangeTable            0x800'0f28   0x30  Data  Gb  system_stm32l4xx.o [1]
+MemManage_Handler        0x800'0fcd    0x2  Code  Gb  stm32l4xx_it.o [4]
+NMI_Handler              0x800'0fc9    0x2  Code  Gb  stm32l4xx_it.o [4]
+PVD_PVM_IRQHandler       0x800'10a1         Code  Wk  startup_stm32l433xx.o [2]
+PendSV_Handler           0x800'0fd7    0x2  Code  Gb  stm32l4xx_it.o [4]
+QUADSPI_IRQHandler       0x800'1179         Code  Wk  startup_stm32l433xx.o [2]
+RCC_IRQHandler           0x800'10b1         Code  Wk  startup_stm32l433xx.o [2]
+RCC_SetFlashLatencyFromMSIRange
+                         0x800'0811   0x74  Code  Lc  stm32l4xx_hal_rcc.o [3]
+RNG_IRQHandler           0x800'1195         Code  Wk  startup_stm32l433xx.o [2]
+RTC_Alarm_IRQHandler     0x800'1135         Code  Wk  startup_stm32l433xx.o [2]
+RTC_WKUP_IRQHandler      0x800'10a9         Code  Wk  startup_stm32l433xx.o [2]
+Region$$Table$$Base      0x800'0fa4          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'0fc8          --   Gb  - Linker created -
+Reset_Handler            0x800'107d         Code  Wk  startup_stm32l433xx.o [2]
+SAI1_IRQHandler          0x800'1185         Code  Wk  startup_stm32l433xx.o [2]
+SDMMC1_IRQHandler        0x800'1139         Code  Wk  startup_stm32l433xx.o [2]
+SPI1_IRQHandler          0x800'111d         Code  Wk  startup_stm32l433xx.o [2]
+SPI2_IRQHandler          0x800'1121         Code  Wk  startup_stm32l433xx.o [2]
+SPI3_IRQHandler          0x800'113d         Code  Wk  startup_stm32l433xx.o [2]
+SVC_Handler              0x800'0fd3    0x2  Code  Gb  stm32l4xx_it.o [4]
+SWPMI1_IRQHandler        0x800'1189         Code  Wk  startup_stm32l433xx.o [2]
+SysTick_Handler          0x800'0fd9    0x4  Code  Gb  stm32l4xx_it.o [4]
+SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32l4xx.o [1]
+SystemInit               0x800'0ff9    0xc  Code  Gb  system_stm32l4xx.o [1]
+TAMP_STAMP_IRQHandler    0x800'10a5         Code  Wk  startup_stm32l433xx.o [2]
+TIM1_BRK_TIM15_IRQHandler
+                         0x800'10f9         Code  Wk  startup_stm32l433xx.o [2]
+TIM1_CC_IRQHandler       0x800'1105         Code  Wk  startup_stm32l433xx.o [2]
+TIM1_TRG_COM_IRQHandler
+                         0x800'1101         Code  Wk  startup_stm32l433xx.o [2]
+TIM1_UP_TIM16_IRQHandler
+                         0x800'10fd         Code  Wk  startup_stm32l433xx.o [2]
+TIM2_IRQHandler          0x800'1109         Code  Wk  startup_stm32l433xx.o [2]
+TIM6_DAC_IRQHandler      0x800'1141         Code  Wk  startup_stm32l433xx.o [2]
+TIM7_IRQHandler          0x800'1145         Code  Wk  startup_stm32l433xx.o [2]
+TSC_IRQHandler           0x800'118d         Code  Wk  startup_stm32l433xx.o [2]
+USART1_IRQHandler        0x800'1125         Code  Wk  startup_stm32l433xx.o [2]
+USART2_IRQHandler        0x800'1129         Code  Wk  startup_stm32l433xx.o [2]
+USART3_IRQHandler        0x800'112d         Code  Wk  startup_stm32l433xx.o [2]
+USB_IRQHandler           0x800'1169         Code  Wk  startup_stm32l433xx.o [2]
+UsageFault_Handler       0x800'0fd1    0x2  Code  Gb  stm32l4xx_it.o [4]
+WWDG_IRQHandler          0x800'109d         Code  Wk  startup_stm32l433xx.o [2]
+__NVIC_SetPriority       0x800'091d   0x1a  Code  Lc  stm32l4xx_hal_cortex.o [3]
+__cmain                  0x800'1019         Code  Gb  cmain.o [7]
+__exit                   0x800'104d   0x14  Code  Gb  exit.o [8]
+__iar_copy_init3         0x800'0beb   0x2a  Code  Gb  copy_init3.o [7]
+__iar_data_init3         0x800'0f59   0x28  Code  Gb  data_init.o [7]
+__iar_init_vfp           0x800'0f81         Code  Gb  fpinit_M.o [6]
+__iar_program_start      0x800'1061         Code  Gb  cstartup_M.o [7]
+__iar_small_Memset       0x800'0bd9         Code  Gb  ABImemset_small.o [7]
+__iar_small_Memset_word
+                         0x800'0bd9         Code  Gb  ABImemset_small.o [7]
+__iar_small_memset       0x800'0bd9         Code  Gb  ABImemset_small.o [7]
+__iar_zero_init3         0x800'0ef1   0x38  Code  Gb  zero_init3.o [7]
+__low_level_init         0x800'1037    0x4  Code  Gb  low_level_init.o [5]
+__vector_table           0x800'0000         Data  Gb  startup_stm32l433xx.o [2]
+_call_main               0x800'1025         Code  Gb  cmain.o [7]
+_exit                    0x800'1041         Code  Gb  cexit.o [7]
+delay_ns                 0x800'0add   0x24  Code  Lc  main.o [4]
+exit                     0x800'103b    0x4  Code  Gb  exit.o [5]
+hdma_tim2_ch3           0x2000'014c   0x48  Data  Gb  tim.o [4]
+leds                    0x2000'0010  0x13c  Data  Lc  main.o [4]
+main                     0x800'09bd  0x120  Code  Gb  main.o [4]
+send_all_pixels          0x800'0b55   0x3e  Code  Lc  main.o [4]
+send_byte                0x800'0b01   0x48  Code  Lc  main.o [4]
+uwTick                  0x2000'0004    0x4  Data  Gb  stm32l4xx_hal.o [3]
+uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32l4xx_hal.o [3]
+uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32l4xx_hal.o [3]
+
+
+[1] = C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\CMSIS_6603591812247902717.dir
+[2] = C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\EWARM_18443280873093131863.dir
+[3] = C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\STM32L4xx_HAL_Driver_2987639196379523013.dir
+[4] = C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Obj\Src_8336665556917705180.dir
+[5] = dl7M_tln.a
+[6] = m7M_tls.a
+[7] = rt7M_tl.a
+[8] = shb_l.a
+
+  4'410 bytes of readonly  code memory
+    102 bytes of readonly  data memory
+  1'428 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

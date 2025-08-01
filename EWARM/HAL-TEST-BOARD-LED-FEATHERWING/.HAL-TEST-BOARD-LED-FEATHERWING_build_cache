@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\Exe\HAL-TEST-BOARD-LED-FEATHERWING.out</Path>
+            <Output>
+                <Path>C:\Users\depomrya\Documents\IC-RGB-FEATHERWING-BOARD-TEST\mit HAL\HAL-TEST-BOARD-LED-FEATHERWING\EWARM\HAL-TEST-BOARD-LED-FEATHERWING\List\HAL-TEST-BOARD-LED-FEATHERWING.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>
